@@ -32,7 +32,7 @@ const Form = () => {
     }, [])
 
     useEffect(() => {
-        if(!street || !country|| !house) {
+        if(!street && !country && !house) {
             tg.MainButton.hide();
         } else {
             tg.MainButton.show();
@@ -74,7 +74,7 @@ const Form = () => {
             <input
             className={'input'}
             type="text"
-            placeholder={'Дом(+ подъезд, этаж, квартира при наличии)'}
+            placeholder={'Дом(подъезд, этаж, квартира при наличии)'}
             value={house}
             onChange={onChangeHouse}
         />

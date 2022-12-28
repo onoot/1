@@ -5,8 +5,8 @@ import {useTelegram} from "../../hooks/useTelegram";
 import {useCallback, useEffect} from "react";
 
 const products = [
-    {id: '1', title: 'Джинсы', price: 5000, description: 'Синего цвета, прямые'},
-    {id: '2', title: 'Куртка', price: 12000, description: 'Зеленого цвета, теплая'},
+    {id: '1', title: 'Джинсы', price: 5000, img:'https://www.godfatherstyle.com/wp-content/uploads/2020/04/2-15.jpg', description: 'Синего цвета, прямые'},
+    {id: '2', title: 'Куртка', price: 12000, img:'https://s.a-5.ru/p/28/69/2869de4a694e26a6.jpg', description: 'Зеленого цвета, теплая'},
 
 ]
 
